@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap');
 
-:root {            --color-empty:                                  unset;
+:root {            --color-empty:                    unset;
      --gray-base:                                    #222e4c;
      --gray-lighter:                                 #ACB0B9;
      --gray-lighter-2:                               #babec7;
@@ -12,7 +12,7 @@
      --gray-gradient-end:                            #FCFCFD;
      --gray-gradient-h:                              linear-gradient( 270deg, var(--gray-gradient-start) 0%, var(--gray-gradient-end) 100%);
      --gray-gradient-v:                              linear-gradient( 0deg, var(--gray-gradient-end) 0%, var(--gray-gradient-start) 100%);
-          --brand-primary:                                #1baecd;
+        --brand-primary:                                #1baecd;
      --brand-primary-lighter:                        #5fc6dc;
      --brand-primary-lighter-2:                      #a4dfeb;
      --brand-primary-lighter-3:                      #d1eff5;
@@ -22,14 +22,14 @@
      --brand-primary-gradient-end:                   #1c9ab4;
      --brand-primary-gradient-h:                     linear-gradient( 90deg, var(--brand-primary-gradient-start) 0%, var(--brand-primary-gradient-end) 100%);
      --brand-primary-gradient-v:                     linear-gradient( 0deg, var(--brand-primary-gradient-end) 0%, var(--brand-primary-gradient-start) 100%);
-         --brand-secondary:                              #222e4c;
+        --brand-secondary:                              #222e4c;
      --brand-secondary-lighter:                      #a7abb7;
      --brand-secondary-darker:                       #1f2944;
      --brand-secondary-gradient-start:               #222e4c;
      --brand-secondary-gradient-end:                 #242e45;
      --brand-secondary-gradient-h:                   linear-gradient( 90deg, var(--brand-secondary-gradient-start) 0%, var(--brand-secondary-gradient-end) 100%);
      --brand-secondary-gradient-v:                   linear-gradient( 0deg, var(--brand-secondary-gradient-end) 0%, var(--brand-secondary-gradient-start) 100%);
-             --brand-info:                                   #1baecd;
+        --brand-info:                                   #1baecd;
      --brand-info-lighter:                           #76cee1;
      --brand-info-lighter-2:                         #a4dfeb;
      --brand-info-lighter-3:                         #d1eff5;
@@ -38,7 +38,7 @@
      --brand-info-gradient-end:                      #1baecd;
      --brand-info-gradient-h:                        linear-gradient( 90deg, var(--brand-info-gradient-start) 0%, var(--brand-info-gradient-end) 100%);
      --brand-info-gradient-v:                        linear-gradient( 0deg, var(--brand-info-gradient-end) 0%, var(--brand-info-gradient-start) 100%);
-             --brand-success:                                #36C055;
+        --brand-success:                                #36C055;
      --brand-success-lighter:                        #70d786;
      --brand-success-lighter-2:                      #cff2d7;
      --brand-success-lighter-3:                      #dbf5e1;
@@ -48,7 +48,7 @@
      --brand-success-gradient-end:                   #36C055;
      --brand-success-gradient-h:                     linear-gradient( 90deg, var(--brand-success-gradient-start) 0%, var(--brand-success-gradient-end) 100%);
      --brand-success-gradient-v:                     linear-gradient( 0deg, var(--brand-success-gradient-end) 0%, var(--brand-success-gradient-end) 100%);
-                 --brand-warning:                                #ffaa00;
+        --brand-warning:                                #ffaa00;
      --brand-warning-lighter:                        #ffc552;
      --brand-warning-lighter-2:                      #ffeecc;
      --brand-warning-lighter-3:                      #fff3db;
@@ -85,12 +85,12 @@
      --svg-illustration-primary-2:                   #3fd7f7;
      --svg-illustration-primary-3:                   #3dcdeb;
      --svg-illustration-primary-4:                   #5ad7f1;
-           --svg-illustration-yellow-1:                    #F9A000;
+        --svg-illustration-yellow-1:                    #F9A000;
      --svg-illustration-yellow-2:                    #FBB900;
      --svg-illustration-yellow-3:                    #FFD251;
      --svg-illustration-yellow-4:                    #FBC666;
      --svg-illustration-yellow-5:                    #FCDA83;
-           --svg-illustration-green-1:                     #1F5C3A;
+        --svg-illustration-green-1:                     #1F5C3A;
      --svg-illustration-green-2:                     #31854C;
      --svg-illustration-green-3:                     #35B65E;
      --svg-illustration-green-4:                     #5BD682;
@@ -104,7 +104,7 @@
     --primary-block-divider-active-color:              #fff;
     --primary-block-title-color:                       var(--text-secondary-heading-color);
       --primary-block-subtitle-color:                    var(--text-secondary-lighter-color);
-                        --primary-block-text-color:                        var(--text-secondary-lighter-color);
+      --primary-block-text-color:                        var(--text-secondary-lighter-color);
     --primary-block-text-faded-color:                  var(--text-secondary-faded-color);
     --primary-block-total-font-color:                  #fff;
          --primary-block-link-color:                        hsla(0, 0%, 100%, 80%);
@@ -1832,8 +1832,8 @@
          --font-size-h5:                             18px;
          --font-size-h4:                             20px;
          --font-size-h3:                             24px;
-         --font-size-h2:                             32px;
-         --font-size-h1:                             40px;
+         --font-size-h2:                             28px;
+         --font-size-h1:                             34px;
          --line-height-xs:                           18px;
          --line-height-sm:                           20px;
          --line-height-base:                         22px;
