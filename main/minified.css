@@ -1460,7 +1460,7 @@
     --main-body-sidebar-content-bg:                 #fff;
            --main-header-padding-v:                       var(--spacing-6x);
                              --main-header-title-color:                     var(--text-heading-color);
-                       --main-header-title-font-size:                 var(--font-size-h2);
+      --main-header-title-font-size:                 var(--font-size-h2);
       --main-header-title-font-weight:               var(--font-weight-h2);
       --main-header-title-line-height:               var(--line-height-h2);
       --main-header-breadcrumb-font-size:            var(--font-size-sm);
@@ -1773,9 +1773,9 @@
      --font-size-xxlg:                               24px;
      --font-size-h6:                                 17px;
      --font-size-h5:                                 20px;
-     --font-size-h4:                                 22px;
-     --font-size-h3:                                 26px;
-     --font-size-h2:                                 30px;
+     --font-size-h4:                                 26px;
+     --font-size-h3:                                 30px;
+     --font-size-h2:                                 40px;
      --font-size-h1:                                 48px;
      --line-height-xs:                               18px;
      --line-height-sm:                               20px;
@@ -1830,9 +1830,9 @@
          --font-size-xxlg:                           21px;
          --font-size-h6:                             16px;
          --font-size-h5:                             18px;
-         --font-size-h4:                             22px;
+         --font-size-h4:                             20px;
          --font-size-h3:                             26px;
-         --font-size-h2:                             30px;
+         --font-size-h2:                             32px;
          --font-size-h1:                             40px;
         --line-height-xs:                           18px;
          --line-height-sm:                           20px;
