@@ -1821,7 +1821,8 @@
     --article-h5-margin-bottom:                     var(--spacing-2x);
     --article-h6-margin-top:                        var(--spacing-3x);
     --article-h6-margin-bottom:                     var(--spacing-2x);
-}@media (max-width: 767px) {    :root {        --font-size-xs:                             12px;
+}@media (max-width: 767px) {    :root {
+         --font-size-xs:                             12px;
          --font-size-sm:                             13px;
          --font-size-base:                           14px;
          --font-size-md:                             15px;
