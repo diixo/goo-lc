@@ -1775,7 +1775,7 @@
      --font-size-h5:                                 18px;
      --font-size-h4:                                 20px;
      --font-size-h3:                                 22px;
-     --font-size-h2:                                 30px;
+     --font-size-h2:                                 24px;
      --font-size-h1:                                 40px;
      --line-height-xs:                               18px;
      --line-height-sm:                               20px;
@@ -1832,8 +1832,8 @@
          --font-size-h6:                             16px;
          --font-size-h5:                             18px;
          --font-size-h4:                             20px;
-         --font-size-h3:                             24px;
-         --font-size-h2:                             28px;
+         --font-size-h3:                             22px;
+         --font-size-h2:                             24px;
          --font-size-h1:                             34px;
          --line-height-xs:                           18px;
          --line-height-sm:                           20px;
