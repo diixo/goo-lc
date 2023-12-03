@@ -1,0 +1,217 @@
+:root {
+    --login-width          : 510px;
+    --login-title-font-size: var(--font-size-h4);
+    --login-padding        : calc(4 * 14px);
+    --app-nav-left-link-font-size: var(--font-size-base);
+    --white:#fff;
+}
+/* login page */
+.main-body-sidebar{
+    background-image   : url("/templates/lagom2//assets/img/custom/sidebar-login.svg");
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;;
+    
+}
+.page-login .main-body-content {
+    background-image   : url("/templates/lagom2//assets/img/custom/main-login-cover.svg");
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+} 
+    /* login style */
+  .login-form .m-t-6.text-left{
+      float: right;
+  }
+    .login-wrapper {
+        padding-bottom: 25px;
+    }
+    .login-form .row {
+        align-items: center;
+    }
+    .login .row-centered {
+        width: auto !important;
+    }
+    .login .row-media {
+        margin: 0 !important;
+    }
+    .login .btn-media :first-child {
+        top: 4px !important;
+    }
+    .login-bottom {
+        display        : flex;
+        justify-content: center;
+        min-height     : 72px;
+        padding        : var(--ui-block-padding-base);
+    }
+    .login-footer {
+        min-height: unset !important;
+        padding: unset !important;
+    }
+.page-login
+.main-body-sidebar 
+.sidebar-logo 
+.logo>img{
+    width: 220px;
+}
+
+/*login social media */
+a[href$="?module_provider=Microsoft"] {
+    background-color: #07651b;
+}
+
+a[href$="?module_provider=Google"] {
+    background-color: #ff422e;
+}
+    a[href$="?module_provider=Google"]:hover,
+a[href$="?module_provider=Google"]:focus,
+a[href$="?module_provider=Google"]:active {
+    color           : var(--white) !important;
+    background-color: #b92d1e !important;
+}
+a[href$="?module_provider=Microsoft"]:hover,
+a[href$="?module_provider=Microsoft"]:focus,
+a[href$="?module_provider=Microsoft"]:active {
+    color           : var(--white) !important;
+    background-color: #3c763d !important;
+}
+.fa-windows::before {
+    bottom: 0px !important;
+    top: 0px !important;
+}
+
+/* search domain button */
+.domain-check-availability {
+    color: var(--btn-primary-color);
+    background: transparent;
+    border-color: var(--btn-primary-color);
+}
+.domain-check-availability:hover {
+        color: var(--btn-primary-faded-hover-color);
+        background-color: var(--btn-primary-color);
+    }
+/* client dashboard */
+.panel-sidebar.panel-sidebar-primary 
+.btn.btn-outline{
+    border-color: var(--white);
+}
+.client-home-panels 
+.panel-domain-register {
+    background: var(--brand-secondary-gradient-v);
+
+}
+
+.client-home-panels 
+.panel-domain-register 
+.panel-heading 
+.panel-title {
+    color: var(--text-secondary-heading-color);
+}
+
+.panel-client-details {
+        color: var(--white)!important;
+    }
+.client-home-panels[data-panels-grid] 
+.col-md-6 
+.panel-heading {
+        position     : relative;
+        border-bottom: 2px solid transparent;
+    }
+    
+.client-home-panels[data-panels-grid] 
+.col-md-6 
+.panel-heading::after {
+        content         : '';
+        background-color: var(--brand-primary);
+        width           : 15%;
+        height          : 2px;
+        position        : absolute;
+        bottom          : 0;
+        left            : 0;
+     }
+.client-home-panels 
+.panel-domain-register 
+.panel-heading 
+.panel-title {
+        justify-content: left;
+    }
+@media(min-width:960px) {
+        
+.client-home-panels  
+.panel-domain-register 
+.panel-body>form {
+            flex     : 0 0 58.667%;
+            max-width: 58.667%;
+        }
+       
+.client-home-panels .panel-domain-register {
+            background         : url(/templates/lagom2/assets/img/custom/domain-side.svg), var(--brand-secondary-gradient-v);
+            background-repeat  : no-repeat;
+            background-position: right;
+            background-size    : contain;
+        }
+    
+}
+
+@media(min-width:750px) {
+.swiper-slide .tile {
+            align-items: flex-start;
+        }
+  }
+    
+@media (max-width: 767.98px) {
+    .swiper-container .tile {
+            grid-column-gap: 10px;
+     }
+ }
+    
+ .status-modern {
+        position: relative;
+    }
+    /* Footer social media */
+.social-holder  {margin-top: 5px;}
+.social-holder svg {width: 25px; height: 25px;}
+.social-holder svg path {fill: #72777c !important;  opacity: 0.6;}
+.social-holder li.twitter a:hover svg path{fill: #55acee !important;opacity: 1;}
+.social-holder li.facebook a:hover svg path{fill: #4768ae !important;opacity: 1;}
+.social-holder li.linkedin a:hover svg path{fill: #0077b5 !important;opacity: 1;}
+.social-holder li.instagram a:hover svg path{fill: #9b8e7d !important;opacity: 1;}
+.social-holder li.youtube a:hover svg path{fill: #ed1a3b !important;opacity: 1;}
+.social-holder li.google a:hover svg path{fill: #ff422e !important;opacity: 1;}
+.social-holder ul {margin:0 auto;width:100%;padding:0;}
+.social-holder ul li {margin:4px;   list-style-type: none;display: inline-block;}
+.social-holder ul li img{width:90px;}
+.social-holder ul li a{box-shadow:none;}
+
+/* ticket star rate */
+.ticket-reply 
+.rating span.star:hover:before, 
+.rating span.star:hover~span.star:before, 
+.ticket-reply .rating-done span.star.active:before{
+	color: #E3CF7A;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='535.001' height='512.063' viewBox='0 0 535.001 512.063'%3E%3Cpath id='star-solid' d='M259.3,17.8,194,150.2,47.9,171.5c-26.2,3.8-36.7,36.1-17.7,54.6l105.7,103-25,145.5c-4.5,26.3,23.2,46,46.4,33.7L288,439.6l130.7,68.7c23.2,12.2,50.9-7.4,46.4-33.7l-25-145.5,105.7-103c19-18.5,8.5-50.8-17.7-54.6L382,150.2,316.7,17.8c-11.7-23.6-45.6-23.9-57.4,0Z' transform='translate(-20.5 0.013)' fill='%23e3cf7a'/%3E%3C/svg%3E%0A");
+}
+.ticket-reply 
+.rating-done span.star:hover:before, 
+.ticket-reply .rating-done span.star:hover~span.star:before, 
+.ticket-reply .rating span.star:hover:before, 
+.ticket-reply .rating span.star:hover~span.star:before{
+	color: #E3CF7A;
+}
+
+/* promo */
+.promo-slider-content .promo-slider-title, 
+.promo-slider-more, .promo-slider-close, 
+.promo-slider-more>i{
+    color: var(--white);
+}
+
+/* register page */
+.register-page .main-body{
+    
+        background: var(--white);
+    
+}
