@@ -1202,7 +1202,7 @@
      --ui-nav-v-link-padding-h:                      0px;
      --ui-nav-v-link-hover-padding-h:                12px;
        --ui-nav-v-link-active-padding-h:               12px;
-         --ui-block-padding-base:                        var(--spacing-3x);
+    --ui-block-padding-base:                        var(--spacing-2x);
     --ui-block-padding-base-v:                      var(--spacing-2x);
     --ui-block-padding-sm:                          var(--spacing-2x);
     --ui-block-padding-sm-v:                        var(--spacing-1x);
