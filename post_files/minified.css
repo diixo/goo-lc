@@ -1460,7 +1460,7 @@
     --main-body-sidebar-content-bg:                 #fff;
            --main-header-padding-v:                       var(--spacing-6x);
                              --main-header-title-color:                     var(--text-heading-color);
-                       --main-header-title-font-size:                 var(--font-size-h2);
+      --main-header-title-font-size:                 var(--font-size-h2);
       --main-header-title-font-weight:               var(--font-weight-h2);
       --main-header-title-line-height:               var(--line-height-h2);
       --main-header-breadcrumb-font-size:            var(--font-size-sm);
@@ -1771,13 +1771,13 @@
      --font-size-lg:                                 17px;
      --font-size-xlg:                                20px;
      --font-size-xxlg:                               24px;
-                       --font-size-h6:                                 17px;
+     --font-size-h6:                                 17px;
      --font-size-h5:                                 20px;
      --font-size-h4:                                 26px;
      --font-size-h3:                                 32px;
      --font-size-h2:                                 40px;
      --font-size-h1:                                 48px;
-                 --line-height-xs:                               18px;
+     --line-height-xs:                               18px;
      --line-height-sm:                               20px;
      --line-height-base:                             24px;
      --line-height-md:                               24px;
@@ -1796,10 +1796,10 @@
      --font-weight-bold:                             700;
      --font-weight-black:                            900;
      --font-weight-bolder:                           bolder;
-    --font-weight-h6:                               var(--font-weight-medium);
-     --font-weight-h5:                               var(--font-weight-light);
-     --font-weight-h4:                               var(--font-weight-light);
-     --font-weight-h3:                               var(--font-weight-medium);
+     --font-weight-h6:                               var(--font-weight-medium);
+     --font-weight-h5:                               var(--font-weight-medium);
+     --font-weight-h4:                               var(--font-weight-medium);
+     --font-weight-h3:                               var(--font-weight-bold);
      --font-weight-h2:                               var(--font-weight-black);
      --font-weight-h1:                               var(--font-weight-black);
      --paragraph-margin-bottom:                      var(--spacing-2x);
@@ -1835,7 +1835,7 @@
          --font-size-h3:                             26px;
          --font-size-h2:                             32px;
          --font-size-h1:                             40px;
-        --line-height-xs:                           18px;
+         --line-height-xs:                           18px;
          --line-height-sm:                           20px;
          --line-height-base:                         24px;
          --line-height-md:                           24px;
