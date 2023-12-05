@@ -283,7 +283,20 @@
                      </div>
                      <div class="section spotlight-tlds new" id="spotlightTlds">
                         <div class="section-header">
-                           <h2 class="section-title">Free URL shortener explained: from long links to tiny URLs</h2>
+                          <h2 class="section-title">Free URL shortener explained: from long links to tiny URLs. Requirements:</h2>
+						  <p>Long URLs can become much smaller and easier to share.</p>
+						  <p>When people visit your website, you can get all sorts of analytic data to determine who the audience is and how they got to your site. With URL shortening services, you can get similar data for each URL link. You will be able to determine precisely when people clicked the link and how many clicks by year, month, week, day, or even the hour visited.</p>
+						  <li>Given a long URL, the service should generate a shorter and unique alias for it.</li>
+                          <li>When the user hits a short link, the service should redirect to the original link.</li>
+                          <li>Links will expire after a standard default time span.</li>
+                          <li>The system should be highly available. This is really important to consider because if the service goes down, all the URL redirection will start failing.</li>
+                          <li>URL redirection should happen in real-time with minimal latency.</li>
+                          <li>Shortened links should not be predictable.</li>
+						  &nbsp;&nbsp;
+                          <p>Let’s assume examples you can see the benefit of different URL shorting services firsthand. Here is that same URL above, shortened with the different services:</p>
+                          <li>using <strong>TinyUrl.com</strong>: <span style="color: var(--link-color);">http://tinyurl.com/n6rbsdc</span> (<strong>26</strong> characters)</li>
+                          <li>using <strong>Bit.ly</strong>: <span style="color: var(--link-color);">http://bit.ly/19ka1ip</span> (<strong>21</strong> characters)</li>
+                          <li>using <strong>Google</strong>: <span style="color: var(--link-color);">http://goo.gl/onWSDE</span> (<strong>20</strong> characters)</li>
                         </div> 
                         <div class="section-body">
 
@@ -446,9 +459,9 @@
 
                <p>Creating a short URL with a 6-digit alias is a common practice for URL shortening services. Here's a general example:</p>
 
-               <p>Original URL: https://www.example.com/some/long/path/to/content</p>
+               <p><strong>Original URL:</strong> https://www.example.com/some/long/path/to/content</p>
 
-               <p>Short URL: https://goo.lc/123456</p>
+               <p><strong>Short URL:</strong> https://goo.lc/123456</p>
 
                <p>In the example above, "123456" is a 6-digit alias. If you have a specific URL or alias in mind, please provide the details, and I can help you generate a short URL accordingly.</p>
 
@@ -466,7 +479,7 @@
       <div class="footer-bottom">
          <div class="container">
             <div class="footer-copyright">
-               Copyright 2023.
+               Copyright 2023 <strong> Goo.lc</strong>.
             </div>
             <ul class="footer-nav footer-nav-h">
             </ul>
