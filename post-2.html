@@ -41,9 +41,9 @@
 <meta name="msapplication-config"    content="main/templates/lagom2/assets/img/favicons/browserconfig.xml">
 
 <link rel="stylesheet" href="./main/minified.css">
-<link rel="stylesheet" href="./post_files/theme.css">
-<link href="./post_files/custom.css" rel="stylesheet">
-<link href="./post_files/theme-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="./main/theme.css">
+<link href="./main/custom.css" rel="stylesheet">
+<link href="./main/theme-custom.css" rel="stylesheet">
     
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,11 +52,9 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<script src="./post_files/all.js" async="" crossorigin="anonymous"></script>
-<script id="facebook-jssdk" src="./post_files/all-1.js"></script>
 
-<script src="./post_files/scripts.min.js"></script>
-<script src="./post_files/core.min.js"></script>
+<script src="./main/scripts.min.js"></script>
+<script src="./main/core.min.js"></script>
 
    <style>
     .with-error + div {
@@ -247,17 +245,68 @@
                               <span>Tuesday, June 6, 2017</span>
                            </li>
                         </ul>
-                        <div class="article-content">
-                           <pre>Upcoming Scheduled Maintenance, June 7th</pre>
-                           <div>&nbsp;
-<p>Dear Valued Customers &amp; Resellers,</p>
-<p>We’re writing to inform you about a scheduled maintenance window we will be having to upgrade our billing system &amp; client area to the latest version<br>Scheduled Maintenance Window:<br>3:00AM-5:00AM (CST) Wednesday June 7th, 2017<br>During this time frame, our billing system and client area (my.register.ly) will need to be taken offline for up to one (2) hours. We have conducted substantial planning and preparation to keep this downtime to a minimum and will do anything in our power to minimize upgrade time.</p>
-<p>During this time you will not be able to access our client area &amp; API, therefore you’ll not be able to make any new orders or renewals. Our DNS service will not be disrupted during this time and will function normally. However, you’ll not be able to edit any DNS records during this time.</p>
-<p>Once the system is back online, you’ll be able to process your API orders normally. There will be no need for any code changes.</p>
-<p>We appreciate your cooperation during this time. Should you have any questions or concerns regarding the move, please contact our support team at support@register.ly (mailto:support@register.ly )</p>
-<p>Regards,<br>Register.ly Team</p>
-                           </div>
-                        </div>
+<div class="article-content" itemprop="text">
+
+				<p style="font-weight: 400;">For example: if your email address is jane123@gmail.com, and you own the domain example.ly, you can set up jane@example.ly using Email Forwarding. Emails sent to jane@example.ly will arrive at jane123@gmail.com</p>
+<p style="font-weight: 400;">To learn how to manage your Email Forwarders, please use the following steps:</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Login to client area </span><a href="https://my.register.ly" target="_blank" rel="noopener"><span style="font-weight: 400;">https://my.register.ly</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Click&nbsp;</span><b>Domains</b><span style="font-weight: 400;"> &gt; </span><b>My Domains</b></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Choose the domain that you want to create an Email Forwarder for and then click <strong>Manage Domain</strong></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Email Forwarding management will allow you to Add/Edit/Delete Aliases</span></li>
+</ul>
+<p><strong>Note</strong>: Our system will check that your domain name NS is pointing to our DNS, and Email Forwarder MX is configured correctly.</p>
+<ul>
+<li><span style="font-weight: 400;">You can enable Email forwarder with one click “Enable Email Forwarding”, it will automatically add required MX records to your Domain DNS.</span></li>
+<li>For manual configuration you may enable Email Forwarding by adding the following &nbsp;MX Records to you domain</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td style="width: 127px;">Name/Host/Alias</td>
+<td style="width: 38px;">TTL</td>
+<td style="width: 90px;">Record Type</td>
+<td style="width: 55px;">Priority</td>
+<td style="width: 83px;">Destination</td>
+</tr>
+<tr>
+<td style="width: 127px;">@ or leave blank</td>
+<td style="width: 38px;">3600</td>
+<td style="width: 90px;">MX</td>
+<td style="width: 55px;">0</td>
+<td style="width: 83px;">mx1.ns.ly</td>
+</tr>
+<tr>
+<td style="width: 127px;">@ or leave blank</td>
+<td style="width: 38px;">3600</td>
+<td style="width: 90px;">MX</td>
+<td style="width: 55px;">10</td>
+<td style="width: 83px;">mx2.ns.ly</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-weight: 400;"><strong>Note:</strong> If you’re using Register.ly </span><a href="https://register.ly" target="_blank" rel="noopener"><span style="font-weight: 400;">DNS</span></a><span style="font-weight: 400;"> Management Service for your domain, you can click [Update MX Records] button to automatically update domain MX records.</span></p>
+<h2 id="add-alias"><strong>Add Alias</strong></h2>
+<ul>
+<li>Click the <strong>Add Alias</strong> button, a window will appear with the following information:
+<ul>
+<li><strong style="font-family: Montserrat; font-size: 16px; letter-spacing: 0px;">Source Address: </strong>
+<span style="font-family: Montserrat; font-size: 16px; letter-spacing: 0px;">Enter the email address you want to create.</span></li>
+<li>
+   <strong style="font-family: Montserrat; font-size: 16px; letter-spacing: 0px;">
+   <label class="control-label">Destination Address: </label></strong>
+   <label class="control-label" style="font-family: Montserrat; font-size: 16px; letter-spacing: 0px;">Enter the email addresses where you would like to receive the forwarded email.</label>
+</li>
+<li><strong style="color: initial;">Status: </strong><span style="color: initial;">To activate or deactivate the Email forwarder</span></li>
+<li>Click <strong>Add</strong></li>
+</ul>
+</li>
+<li>After adding an Alias, success message will be shown</li>
+<li>From Alias list, you can edit and delete created Aliases under <strong>Actions </strong>next to the required Alias.</li>
+</ul>
+
+				
+			</div>
                         <div class="article-footer">
                            <div class="article-actions">
                               <a href="https://goo.lc" class="btn btn-default"> Back</a>
