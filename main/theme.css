@@ -2287,7 +2287,7 @@
 {color:inherit}.list-group-item.active .list-group-item-text,.list-group-item.active:focus .list-group-item-text,.list-group-item.active:hover .list-group-item-text
 {color:var(--list-group-active-text-color)}.list-group-lg .list-group-item
 {padding:var(--list-group-item-lg-padding)}.list-group-lg .list-group-item-heading
-{font-weight:var(--font-weight-h4);font-size:var(--font-size-h4);line-height:var(--line-height-h4)}.list-group-lg .list-group-item-heading+.list-group-item-text
+{font-weight:var(--font-weight-h3);font-size:var(--font-size-h3);line-height:var(--line-height-h3)}.list-group-lg .list-group-item-heading+.list-group-item-text
 {margin-top:var(--ui-block-spacing-xs)}.list-group-lg .list-group-item-footer
 {margin-top:var(--ui-padding-lg-h)}.list-group-flush
 {border-radius:0}.list-group-flush>.list-group-item
