@@ -7160,7 +7160,7 @@
 {height:132px;display:flex;align-items:center;justify-content:center}.spotlight-price
 {padding:5px 0;color:var(--text-heading-color);font-size:var(--font-size-sm);border-bottom:1px solid var(--ui-block-divider-color)}.spotlight-content
 {position:relative;overflow:hidden;border-top:none;padding:24px 0}.spotlight-content .extension
-{color:var(--text-heading-color);font-size:var(--font-size-h3);font-weight:var(--font-weight-bold);margin:0}.spotlight-content .extension span
+{color:var(--text-heading-color);font-size:var(--font-size-h4);font-weight:var(--font-weight-bold);margin:0}.spotlight-content .extension span
 {color:var(--text-primary-color)}.spotlight-footer
 {padding:0 var(--spacing-1x) var(--spacing-1x);background:transparent}.spotlight-footer .btn
 {margin:0}.spotlight-footer .btn-group
