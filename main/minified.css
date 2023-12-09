@@ -1806,7 +1806,7 @@
      --headings-margin-bottom:                       var(--spacing-2x);
     --link-decoration:                              none;
     --article-font-color:                           var(--text-body-color);
-    --article-font-size-base:                       var(--font-size-lg);
+    --article-font-size-base:                       var(--font-size-md);     /*--font-size-lg*/
     --article-font-weight-base:                     var(--font-weight-base);
     --article-line-height-base:                     var(--line-height-lg);
     --article-h1-margin-top:                        var(--spacing-8x);
