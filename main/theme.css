@@ -4819,7 +4819,7 @@
 {top:-166px;left:auto;right:-95px}.section .section-header
 {margin-bottom:var(--ca-section-header-margin-bottom)}.section .section-header>:last-child
 {margin-bottom:0}.section .section-header>p
-{margin-top:calc(-1*var(--spacing-1x));margin-bottom:var(--spacing-4x)!important}.section .section-desc
+{margin-top:0;margin-bottom:var(--spacing-4x)!important}.section .section-desc
 {color:var(--ca-section-desc-color);font-size:var(--ca-section-desc-font-size);font-weight:var(--ca-section-desc-font-weight);line-height:var(--ca-section-desc-line-height)}.section>:last-child
 {margin-bottom:0}.section+.section
 {margin-top:var(--ca-section-spacing)}.section.hidden:first-child+.section
