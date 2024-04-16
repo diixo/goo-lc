@@ -646,7 +646,7 @@ body .ht-mobile-exit .hkb_widget_exit__btn {
     transition: all 0.4s ease-in-out;
     padding: 15px 40px;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
 }
 
